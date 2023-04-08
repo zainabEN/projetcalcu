@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.affichage{
+    width: 100%;
+    height: 100vh;
+    background: rgb(249, 250, 249);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.cal{
+    background: rgb(69, 37, 2);
+    padding: 20px;
+    border-radius: 10px;
+}
+.cal   button{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+
+}
+ .aff{
+    display: flex;
+    margin: 20px 0;
+}
+ .aff input{
+    height: 70px;
+    width: 255px;
+}
+#q{
+    width: 125px;
+    background-color: rgb(218, 77, 77);
+    
+}
+input{
+    font-size: 1,7em;
+    padding: 0 20px;
+    border: 0;
+}
+#ac{
+    background-color: rgb(218, 77, 77);
+}
+button{
+    color: rgb(44, 41, 41);
+    background-color: bisque;
+}
+#col{
+    background-color: rgb(245, 150, 150);
+
+}
+.col{
+    background-color: rgb(245, 150, 150);
+
+}

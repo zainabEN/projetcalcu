@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>cal</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="affichage">
+        <div class="cal">
+                <div class="aff">
+                    <input type="text" id="screen">
+                </div>
+                <div>
+                    <button  onclick="clearscreen()" id="ac">AC</button>
+                   <button onclick="suppchar()"  id="col" >DE</button>
+                   <button   onclick=" affichage( '.')" id="col">.</button>
+                    <button  onclick=" affichage( '/')" id="col">/</button>
+                </div>
+                <div>
+                    <button   onclick=" affichage('7' )"id="nub">7</button>
+                    <button   onclick=" affichage('8' )" id="nub">8</button>
+                    <button   onclick=" affichage('9' )" id="nub">9</button>
+                     <button   onclick=" affichage('*' )"id="ope" class="col">*</button>
+                </div>
+                <div>
+                    <button   onclick=" affichage('4' )" id="nub">4</button>
+                    <button   onclick=" affichage('5' )" id="nub">5</button>
+                    <button   onclick=" affichage('6' )" id="nub">6</button>
+                     <button   onclick=" affichage('-' )"id="ope" class="col">-</button>
+                </div>
+                <div>
+                    <button   onclick=" affichage('1')">1</button>
+                    <button   id="nub" onclick=" affichage('2')" >2</button>
+                    <button   onclick=" affichage('3' )" id="nub">3</button>
+                     <button   onclick=" affichage('+')"id="ope"class="col">+</button>
+                </div>
+                <div>
+                    <button id="por" onclick="pourcentage()">%</button>
+                    <button   onclick=" affichage('0' )" id="nub">0</button>
+                    <button onclick=" affichage('(')">(</button>
+                    <button onclick=" affichage(')')" id="col">)</button>
+                </div>
+                <div> <button  onclick=" valuab()">x! </button>
+                    <button onclick=" racine()"  >√ </button>
+                    <button   onclick="calcul()"id="q">=</button>
+                </div>
+        </div>
+
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>

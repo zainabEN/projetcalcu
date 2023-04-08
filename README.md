@@ -7,7 +7,6 @@
     <h3>la fonction affichage ()</h3>
  <h3> la fonction affichage ()</h3> 
         Une fonction qui affiche les éléments.
-      <P> Une fonction qui calcule des opérations.</P>
        <h3> la fonction getperchar()</h3>
           <P> Une fonction qui prend l'élément avant le dernier.</P>   
             <h3> la fonction calcsyntax()</h3>
@@ -18,7 +17,7 @@
           <p>  Une fonction qui supprime tous les éléments</p>
          <h3> la fonction pourcentage()</h3>
                 <p>Une fonction pour calculer le pourcentage</p>
-             <h3> valuab()</h3>
+             <h3> la fonction  valuab()</h3>
               <p>fonction de calcul de factoielle</p>
               <h3>  la fonction racine()</h3>
               <p>fonction de calcul de la racine carrée</p>
